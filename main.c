@@ -1,3 +1,5 @@
+//ögrenci kayıt programı--OĞUZ AVANOĞLU
+
 #include <stdio.h>
 #include <stdint.h>
 #include <string.h>
@@ -15,7 +17,7 @@ typedef struct{
 
 int max_record=10;
 
-//Global array of records
+//Global array of record
 STUDENT_INFO_t students[10];
 
 void display_menu(void);
